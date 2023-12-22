@@ -1,0 +1,19 @@
+CDK commands:
+-----------------------------------
+======> 26th sep, 2023 ------------
+-----------------------------------
+cdk init --language=typescript
+cdk bootstrap - to bootstrap the cdk
+cdk synth - kinda building the CDK.
+cdk deploy
+
+cdk list - to list out the cdk's instances.
+cdk diff - to differentiate, what we have locally and remotely deployed env.(Status of the CDK changes)
+cdk doctor - to check if any version issues in the CDK
+cdk destroy (-stack-name) - to delete the stacks.
+-----------------------------------
+----------- React with Vite -------
+-----------------------------------
+npm init vite@latest -- --template react-ts
+
+aws cloudwatch describe-alarms

@@ -1,0 +1,29 @@
+
+@url=https://wvoze7mmxj.execute-api.ap-south-1.amazonaws.com/prod/
+
+
+GET  {{url}}/spaces
+###
+
+POST  {{url}}/spaces
+Content-Type: application/json
+
+ {
+    "location": "Paris",
+    "name": "Location"
+ }
+###
+
+GET  {{url}}/spaces?id=34335
+###
+
+DELETE  {{url}}/spaces?id=34335
+###
+
+PUT  {{url}}/spaces?id=34335
+Content-Type: application/json
+
+ {
+    "location": "Paris2"
+ }
+###
